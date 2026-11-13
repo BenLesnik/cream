@@ -110,6 +110,7 @@ export function LocationSearch() {
         <input
           ref={inputRef}
           role="combobox"
+          aria-label="Search location"
           aria-expanded={open}
           aria-controls={listId}
           aria-autocomplete="list"
